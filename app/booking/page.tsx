@@ -1,3 +1,5 @@
+"use client"
+
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 
@@ -102,10 +104,20 @@ export default function BookingPage() {
                 <div className="space-y-4">
                   <h3 className="font-semibold text-lg">Quick Booking</h3>
                   <div className="space-y-3">
-                    <Button className="w-full bg-green-600 hover:bg-green-700 text-white">
+                    <Button 
+                      className="w-full bg-green-600 hover:bg-green-700 text-white"
+                      onClick={() => {
+                        const whatsappMessage = "Hello! I'd like to book a massage appointment. Could you please let me know your availability?"
+                        const encodedMessage = encodeURIComponent(whatsappMessage)
+                        window.open(`https://wa.me/447464882684?text=${encodedMessage}`, '_blank')
+                      }}
+                    >
                       📱 WhatsApp Book
                     </Button>
-                    <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white">
+                    <Button 
+                      className="w-full bg-blue-600 hover:bg-blue-700 text-white"
+                      onClick={() => window.open('tel:01767302856', '_self')}
+                    >
                       📞 Call Now
                     </Button>
                   </div>

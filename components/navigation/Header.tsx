@@ -141,9 +141,11 @@ export default function Header() {
               </NavigationMenuList>
             </NavigationMenu>
 
-            <Button className="bg-amber-600 hover:bg-amber-700">
-              <Link href="/booking">Book Now</Link>
-            </Button>
+            <Link href="/booking">
+              <Button className="bg-amber-600 hover:bg-amber-700">
+                Book Now
+              </Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -189,9 +191,11 @@ export default function Header() {
                 Contact
               </Link>
               <div className="px-3 py-2">
-                <Button className="w-full bg-amber-600 hover:bg-amber-700">
-                  <Link href="/booking">Book Now</Link>
-                </Button>
+                <Link href="/booking" className="block">
+                  <Button className="w-full bg-amber-600 hover:bg-amber-700">
+                    Book Now
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
