@@ -48,9 +48,9 @@ const services = [
 
 export default function ServicesPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-amber-50 to-white">
+    <div className="min-h-screen bg-gradient-to-b from-spa-sand/30 to-white">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-amber-600 to-orange-500 text-white py-20">
+      <div className="bg-gradient-to-r from-spa-sage to-spa-teal text-white py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">Our Services</h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed">
@@ -69,11 +69,11 @@ export default function ServicesPage() {
                   <CardTitle className="text-xl font-semibold text-gray-800">
                     {service.name}
                   </CardTitle>
-                  <span className="text-2xl font-bold text-amber-600">
+                  <span className="text-2xl font-bold text-spa-sage">
                     {service.price}
                   </span>
                 </div>
-                <CardDescription className="text-amber-600 font-medium">
+                <CardDescription className="text-spa-teal font-medium">
                   {service.duration}
                 </CardDescription>
               </CardHeader>
@@ -81,7 +81,7 @@ export default function ServicesPage() {
                 <p className="text-gray-600 mb-6 leading-relaxed">
                   {service.description}
                 </p>
-                <Button className="w-full bg-amber-600 hover:bg-amber-700 text-white">
+                <Button className="w-full bg-spa-sage hover:bg-spa-sage/90 text-white">
                   Book This Treatment
                 </Button>
               </CardContent>
@@ -100,7 +100,7 @@ export default function ServicesPage() {
             Book your massage today and let our experienced therapists help you achieve optimal wellness and relaxation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-amber-600 hover:bg-amber-700">
+            <Button size="lg" className="bg-spa-sage hover:bg-spa-sage/90">
               Book Online Now
             </Button>
             <Button size="lg" variant="outline">

@@ -50,9 +50,9 @@ const services = [
 
 export default function BookingPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-amber-50 to-white">
+    <div className="min-h-screen bg-gradient-to-b from-spa-sand/30 to-white">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-amber-600 to-orange-500 text-white py-20">
+      <div className="bg-gradient-to-r from-spa-sage to-spa-teal text-white py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">Book Online</h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed">
@@ -68,7 +68,7 @@ export default function BookingPage() {
             <h2 className="text-3xl font-bold text-gray-800 mb-8">Select Your Treatment</h2>
             <div className="space-y-4">
               {services.map((service) => (
-                <Card key={service.id} className="cursor-pointer hover:shadow-lg transition-shadow border-2 hover:border-amber-500">
+                <Card key={service.id} className="cursor-pointer hover:shadow-lg transition-shadow border-2 hover:border-spa-sage">
                   <CardContent className="p-6">
                     <div className="flex justify-between items-start">
                       <div className="flex-1">
@@ -76,13 +76,13 @@ export default function BookingPage() {
                           {service.name}
                         </h3>
                         <p className="text-gray-600 mb-2">{service.description}</p>
-                        <p className="text-amber-600 font-medium">{service.duration}</p>
+                        <p className="text-spa-teal font-medium">{service.duration}</p>
                       </div>
                       <div className="text-right ml-4">
-                        <p className="text-2xl font-bold text-amber-600 mb-2">
+                        <p className="text-2xl font-bold text-spa-sage mb-2">
                           {service.price}
                         </p>
-                        <Button className="bg-amber-600 hover:bg-amber-700">
+                        <Button className="bg-spa-sage hover:bg-spa-sage/90">
                           Select
                         </Button>
                       </div>
@@ -135,7 +135,7 @@ export default function BookingPage() {
                         type="text"
                         id="booking-name"
                         name="name"
-                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500"
+                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-spa-sage"
                         required
                       />
                     </div>
@@ -148,7 +148,7 @@ export default function BookingPage() {
                         type="email"
                         id="booking-email"
                         name="email"
-                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500"
+                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-spa-sage"
                         required
                       />
                     </div>
@@ -161,7 +161,7 @@ export default function BookingPage() {
                         type="tel"
                         id="booking-phone"
                         name="phone"
-                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500"
+                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-spa-sage"
                         required
                       />
                     </div>
@@ -174,7 +174,7 @@ export default function BookingPage() {
                         type="date"
                         id="booking-date"
                         name="date"
-                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500"
+                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-spa-sage"
                         required
                       />
                     </div>
@@ -186,7 +186,7 @@ export default function BookingPage() {
                       <select
                         id="booking-time"
                         name="time"
-                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500"
+                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-spa-sage"
                         required
                       >
                         <option value="">Select time</option>
@@ -209,12 +209,12 @@ export default function BookingPage() {
                         id="booking-notes"
                         name="notes"
                         rows={3}
-                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500"
+                        className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-spa-sage"
                         placeholder="Any special requests or medical conditions we should know about..."
                       ></textarea>
                     </div>
 
-                    <Button type="submit" className="w-full bg-amber-600 hover:bg-amber-700">
+                    <Button type="submit" className="w-full bg-spa-sage hover:bg-spa-sage/90">
                       Request Booking
                     </Button>
                   </form>

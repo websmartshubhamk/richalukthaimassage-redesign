@@ -10,22 +10,32 @@ const config: Config = {
   theme: {
   	extend: {
   		colors: {
+  			// Calming spa colors
+  			spa: {
+  				sage: '#87A96B',      // Soft sage green
+  				mint: '#A8E6CF',      // Light mint
+  				lavender: '#B19CD9',  // Soft lavender
+  				sand: '#F5E6D3',      // Warm sand
+  				stone: '#8B8680',     // Neutral stone
+  				teal: '#5F9EA0',      // Calming teal
+  				plum: '#8B7D82',      // Muted plum
+  			},
   			primary: {
   				DEFAULT: 'hsl(var(--primary))',
-  				light: '#A0522D',
-  				dark: '#654321',
+  				light: '#87A96B',     // Sage green
+  				dark: '#5F7052',      // Darker sage
   				foreground: 'hsl(var(--primary-foreground))'
   			},
   			secondary: {
   				DEFAULT: 'hsl(var(--secondary))',
-  				light: '#FFD700',
-  				dark: '#B8860B',
+  				light: '#B19CD9',     // Lavender
+  				dark: '#8B7AB3',      // Darker lavender
   				foreground: 'hsl(var(--secondary-foreground))'
   			},
   			accent: {
   				DEFAULT: 'hsl(var(--accent))',
-  				light: '#32CD32',
-  				dark: '#006400',
+  				light: '#A8E6CF',     // Mint
+  				dark: '#7BC4A3',      // Darker mint
   				foreground: 'hsl(var(--accent-foreground))'
   			},
   			neutral: {

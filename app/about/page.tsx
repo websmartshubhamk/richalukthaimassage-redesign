@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/button"
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-amber-50 to-white">
+    <div className="min-h-screen bg-gradient-to-b from-spa-sand/30 to-white">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-amber-600 to-orange-500 text-white py-20">
+      <div className="bg-gradient-to-r from-spa-sage to-spa-teal text-white py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">About Richa Luk</h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed">
@@ -49,7 +49,7 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="text-center p-6">
               <CardContent className="pt-6">
-                <div className="w-16 h-16 bg-amber-500 rounded-full mx-auto mb-4 flex items-center justify-center">
+                <div className="w-16 h-16 bg-spa-sage rounded-full mx-auto mb-4 flex items-center justify-center">
                   <span className="text-white text-xl">🙏</span>
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Authentic Tradition</h3>
@@ -61,7 +61,7 @@ export default function AboutPage() {
 
             <Card className="text-center p-6">
               <CardContent className="pt-6">
-                <div className="w-16 h-16 bg-amber-500 rounded-full mx-auto mb-4 flex items-center justify-center">
+                <div className="w-16 h-16 bg-spa-sage rounded-full mx-auto mb-4 flex items-center justify-center">
                   <span className="text-white text-xl">💆</span>
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Personalised Care</h3>
@@ -73,7 +73,7 @@ export default function AboutPage() {
 
             <Card className="text-center p-6">
               <CardContent className="pt-6">
-                <div className="w-16 h-16 bg-amber-500 rounded-full mx-auto mb-4 flex items-center justify-center">
+                <div className="w-16 h-16 bg-spa-sage rounded-full mx-auto mb-4 flex items-center justify-center">
                   <span className="text-white text-xl">✨</span>
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Holistic Healing</h3>
@@ -93,19 +93,19 @@ export default function AboutPage() {
               <h3 className="text-xl font-semibold mb-4">Certifications</h3>
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start">
-                  <span className="text-amber-500 mr-2">•</span>
+                  <span className="text-spa-sage mr-2">•</span>
                   Certified Thai Massage Therapist
                 </li>
                 <li className="flex items-start">
-                  <span className="text-amber-500 mr-2">•</span>
+                  <span className="text-spa-sage mr-2">•</span>
                   Advanced Deep Tissue Massage
                 </li>
                 <li className="flex items-start">
-                  <span className="text-amber-500 mr-2">•</span>
+                  <span className="text-spa-sage mr-2">•</span>
                   Hot Stone Therapy Certification
                 </li>
                 <li className="flex items-start">
-                  <span className="text-amber-500 mr-2">•</span>
+                  <span className="text-spa-sage mr-2">•</span>
                   Reflexology Practitioner
                 </li>
               </ul>
@@ -129,7 +129,7 @@ export default function AboutPage() {
             Book your appointment today and discover how traditional Thai massage can transform your wellbeing.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-amber-600 hover:bg-amber-700">
+            <Button size="lg" className="bg-spa-sage hover:bg-spa-sage/90">
               Book Your Treatment
             </Button>
             <Button size="lg" variant="outline">
