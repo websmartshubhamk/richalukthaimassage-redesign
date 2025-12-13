@@ -5,7 +5,7 @@ import { Phone, MapPin, Clock, Star } from "lucide-react"
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-spa-sand via-white to-spa-lavender/10 overflow-hidden">
+    <section className="relative min-h-screen bg-gradient-to-br from-brand-lightGrey via-white to-brand-blue/5 overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
@@ -20,7 +20,7 @@ export default function HeroSection() {
             <div>
               <h1 className="text-5xl md:text-7xl font-bold text-gray-800 leading-tight mb-6">
                 Authentic
-                <span className="text-spa-sage block">Thai Massage</span>
+                <span className="text-brand-blue block">Thai Massage</span>
                 Therapy
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 leading-relaxed mb-8">
@@ -31,25 +31,25 @@ export default function HeroSection() {
 
             {/* Quick Info Cards */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-              <Card className="border-spa-sage/20 bg-white/80 backdrop-blur-sm">
+              <Card className="border-brand-blue/20 bg-white/80 backdrop-blur-sm">
                 <CardContent className="p-4 text-center">
-                  <Clock className="h-8 w-8 text-spa-sage mx-auto mb-2" />
+                  <Clock className="h-8 w-8 text-brand-gold mx-auto mb-2" />
                   <p className="text-sm font-medium text-gray-800">Open Today</p>
                   <p className="text-xs text-gray-600">11AM - 7PM</p>
                 </CardContent>
               </Card>
               
-              <Card className="border-spa-sage/20 bg-white/80 backdrop-blur-sm">
+              <Card className="border-brand-blue/20 bg-white/80 backdrop-blur-sm">
                 <CardContent className="p-4 text-center">
-                  <MapPin className="h-8 w-8 text-spa-sage mx-auto mb-2" />
+                  <MapPin className="h-8 w-8 text-brand-gold mx-auto mb-2" />
                   <p className="text-sm font-medium text-gray-800">Sandy Location</p>
                   <p className="text-xs text-gray-600">Free Parking</p>
                 </CardContent>
               </Card>
               
-              <Card className="border-spa-sage/20 bg-white/80 backdrop-blur-sm">
+              <Card className="border-brand-blue/20 bg-white/80 backdrop-blur-sm">
                 <CardContent className="p-4 text-center">
-                  <Star className="h-8 w-8 text-spa-sage mx-auto mb-2" />
+                  <Star className="h-8 w-8 text-brand-gold mx-auto mb-2" />
                   <p className="text-sm font-medium text-gray-800">Experienced</p>
                   <p className="text-xs text-gray-600">Certified Therapist</p>
                 </CardContent>
@@ -58,13 +58,13 @@ export default function HeroSection() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-spa-sage hover:bg-spa-sage/90 text-white shadow-lg hover:shadow-xl transition-all duration-300">
+              <Button size="lg" className="bg-brand-gold hover:bg-brand-gold/90 text-brand-black shadow-lg hover:shadow-xl transition-all duration-300">
                 <Link href="/booking" className="flex items-center">
                   Book Your Treatment
                 </Link>
               </Button>
               
-              <Button size="lg" variant="outline" className="border-spa-sage text-spa-sage hover:bg-spa-sage/10">
+              <Button size="lg" variant="outline" className="border-brand-blue text-brand-blue hover:bg-brand-blue/10">
                 <Phone className="h-4 w-4 mr-2" />
                 <a href="tel:01767302856">Call Now: 01767 302856</a>
               </Button>
@@ -74,7 +74,7 @@ export default function HeroSection() {
             <div className="flex items-center space-x-6 pt-4">
               <div className="flex items-center space-x-1">
                 {[1, 2, 3, 4, 5].map((star) => (
-                  <Star key={star} className="h-5 w-5 fill-spa-sage text-spa-sage" />
+                  <Star key={star} className="h-5 w-5 fill-brand-gold text-brand-gold" />
                 ))}
               </div>
               <p className="text-gray-600 text-sm">
@@ -87,9 +87,9 @@ export default function HeroSection() {
           <div className="relative">
             {/* Main Image Placeholder */}
             <div className="relative">
-              <div className="bg-gradient-to-br from-spa-sand to-spa-mint/20 rounded-3xl h-[600px] flex items-center justify-center shadow-2xl">
+              <div className="bg-gradient-to-br from-brand-lightGrey to-brand-blue/10 rounded-3xl h-[600px] flex items-center justify-center shadow-2xl">
                 <div className="text-center text-gray-500">
-                  <div className="w-24 h-24 mx-auto mb-4 bg-spa-sage/30 rounded-full flex items-center justify-center">
+                  <div className="w-24 h-24 mx-auto mb-4 bg-brand-blue/20 rounded-full flex items-center justify-center">
                     <span className="text-3xl">🧘‍♀️</span>
                   </div>
                   <p className="text-lg">Professional Treatment Image</p>
@@ -97,7 +97,7 @@ export default function HeroSection() {
               </div>
               
               {/* Floating Cards */}
-              <Card className="absolute -bottom-6 -left-6 bg-white shadow-xl border-spa-sage/20">
+              <Card className="absolute -bottom-6 -left-6 bg-white shadow-xl border-brand-blue/20">
                 <CardContent className="p-6">
                   <div className="flex items-center space-x-3">
                     <div className="bg-green-100 p-2 rounded-full">
@@ -111,7 +111,7 @@ export default function HeroSection() {
                 </CardContent>
               </Card>
 
-              <Card className="absolute -top-6 -right-6 bg-white shadow-xl border-spa-sage/20">
+              <Card className="absolute -top-6 -right-6 bg-white shadow-xl border-brand-blue/20">
                 <CardContent className="p-6">
                   <div className="flex items-center space-x-3">
                     <div className="bg-blue-100 p-2 rounded-full">
@@ -131,11 +131,11 @@ export default function HeroSection() {
         {/* Scroll Indicator */}
         <div className="text-center mt-12">
           <div className="animate-bounce">
-            <div className="w-6 h-10 border-2 border-spa-sage rounded-full flex justify-center">
-              <div className="w-1 h-3 bg-spa-sage rounded-full mt-2 animate-pulse"></div>
+            <div className="w-6 h-10 border-2 border-brand-blue rounded-full flex justify-center">
+              <div className="w-1 h-3 bg-brand-blue rounded-full mt-2 animate-pulse"></div>
             </div>
           </div>
-          <p className="text-spa-sage text-sm mt-2">Scroll to explore</p>
+          <p className="text-brand-blue text-sm mt-2">Scroll to explore</p>
         </div>
       </div>
     </section>

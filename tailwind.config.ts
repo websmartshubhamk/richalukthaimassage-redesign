@@ -10,32 +10,31 @@ const config: Config = {
   theme: {
   	extend: {
   		colors: {
-  			// Calming spa colors
-  			spa: {
-  				sage: '#87A96B',      // Soft sage green
-  				mint: '#A8E6CF',      // Light mint
-  				lavender: '#B19CD9',  // Soft lavender
-  				sand: '#F5E6D3',      // Warm sand
-  				stone: '#8B8680',     // Neutral stone
-  				teal: '#5F9EA0',      // Calming teal
-  				plum: '#8B7D82',      // Muted plum
+  			// Original site colors
+  			brand: {
+  				blue: '#3A5795',      // Logo blue
+  				gold: '#D4AF37',      // Logo gold/yellow
+  				lightGrey: '#F5F5F5', // Section backgrounds
+  				darkGrey: '#333333',  // Text
+  				black: '#000000',     // Logo text
+  				white: '#FFFFFF',     // Background
   			},
   			primary: {
   				DEFAULT: 'hsl(var(--primary))',
-  				light: '#87A96B',     // Sage green
-  				dark: '#5F7052',      // Darker sage
+  				light: '#3A5795',     // Brand blue
+  				dark: '#2A4575',      // Darker blue
   				foreground: 'hsl(var(--primary-foreground))'
   			},
   			secondary: {
   				DEFAULT: 'hsl(var(--secondary))',
-  				light: '#B19CD9',     // Lavender
-  				dark: '#8B7AB3',      // Darker lavender
+  				light: '#D4AF37',     // Brand gold
+  				dark: '#B8941F',      // Darker gold
   				foreground: 'hsl(var(--secondary-foreground))'
   			},
   			accent: {
   				DEFAULT: 'hsl(var(--accent))',
-  				light: '#A8E6CF',     // Mint
-  				dark: '#7BC4A3',      // Darker mint
+  				light: '#3A5795',     // Brand blue
+  				dark: '#2A4575',      // Darker blue
   				foreground: 'hsl(var(--accent-foreground))'
   			},
   			neutral: {

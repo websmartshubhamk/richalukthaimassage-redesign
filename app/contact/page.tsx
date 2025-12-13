@@ -3,9 +3,9 @@ import { Button } from "@/components/ui/button"
 
 export default function ContactPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-spa-sand/30 to-white">
+    <div className="min-h-screen bg-gradient-to-b from-brand-lightGrey to-white">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-spa-sage to-spa-teal text-white py-20">
+      <div className="bg-gradient-to-r from-brand-blue to-brand-blue/80 text-white py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">Contact Us</h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed">
@@ -20,7 +20,7 @@ export default function ContactPage() {
           {/* Contact Details */}
           <Card className="text-center">
             <CardHeader>
-              <div className="w-16 h-16 bg-spa-sage rounded-full mx-auto mb-4 flex items-center justify-center">
+              <div className="w-16 h-16 bg-brand-gold rounded-full mx-auto mb-4 flex items-center justify-center">
                 <span className="text-white text-xl">📞</span>
               </div>
               <CardTitle>Phone</CardTitle>
@@ -33,7 +33,7 @@ export default function ContactPage() {
 
           <Card className="text-center">
             <CardHeader>
-              <div className="w-16 h-16 bg-spa-sage rounded-full mx-auto mb-4 flex items-center justify-center">
+              <div className="w-16 h-16 bg-brand-gold rounded-full mx-auto mb-4 flex items-center justify-center">
                 <span className="text-white text-xl">📱</span>
               </div>
               <CardTitle>Mobile</CardTitle>
@@ -46,7 +46,7 @@ export default function ContactPage() {
 
           <Card className="text-center">
             <CardHeader>
-              <div className="w-16 h-16 bg-spa-sage rounded-full mx-auto mb-4 flex items-center justify-center">
+              <div className="w-16 h-16 bg-brand-gold rounded-full mx-auto mb-4 flex items-center justify-center">
                 <span className="text-white text-xl">✉️</span>
               </div>
               <CardTitle>Email</CardTitle>
@@ -114,7 +114,7 @@ export default function ContactPage() {
                     type="text"
                     id="name"
                     name="name"
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-spa-sage"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-blue"
                     required
                   />
                 </div>
@@ -127,7 +127,7 @@ export default function ContactPage() {
                     type="email"
                     id="email"
                     name="email"
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-spa-sage"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-blue"
                     required
                   />
                 </div>
@@ -140,7 +140,7 @@ export default function ContactPage() {
                     type="tel"
                     id="phone"
                     name="phone"
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-spa-sage"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-blue"
                   />
                 </div>
 
@@ -151,7 +151,7 @@ export default function ContactPage() {
                   <select
                     id="service"
                     name="service"
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-spa-sage"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-blue"
                   >
                     <option value="">Please select a service</option>
                     <option value="traditional">Traditional Thai Massage</option>
@@ -171,13 +171,13 @@ export default function ContactPage() {
                     id="message"
                     name="message"
                     rows={4}
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-spa-sage"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-blue"
                     placeholder="Tell us about your needs or any questions you have..."
                     required
                   ></textarea>
                 </div>
 
-                <Button type="submit" className="w-full bg-spa-sage hover:bg-spa-sage/90">
+                <Button type="submit" className="w-full bg-brand-gold hover:bg-brand-gold/90 text-brand-black">
                   Send Message
                 </Button>
               </form>

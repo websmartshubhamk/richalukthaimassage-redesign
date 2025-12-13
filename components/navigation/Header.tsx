@@ -20,7 +20,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
       {/* Top Bar */}
-      <div className="bg-spa-sage text-white py-2 text-sm">
+      <div className="bg-brand-blue text-white py-2 text-sm">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
             <div className="flex items-center space-x-6">
@@ -46,7 +46,7 @@ export default function Header() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <div className="bg-spa-sage text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-lg">
+            <div className="bg-brand-blue text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-lg">
               R
             </div>
             <div>
@@ -72,7 +72,7 @@ export default function Header() {
                   <NavigationMenuContent>
                     <div className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2">
                       <div className="space-y-3">
-                        <h4 className="font-medium text-sm text-spa-teal">Massage Treatments</h4>
+                        <h4 className="font-medium text-sm text-brand-gold">Massage Treatments</h4>
                         <Link
                           href="/services#traditional"
                           className="block select-none rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
@@ -96,7 +96,7 @@ export default function Header() {
                         </Link>
                       </div>
                       <div className="space-y-3">
-                        <h4 className="font-medium text-sm text-spa-teal">Specialty Treatments</h4>
+                        <h4 className="font-medium text-sm text-brand-gold">Specialty Treatments</h4>
                         <Link
                           href="/services#hot-stone"
                           className="block select-none rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
@@ -142,7 +142,7 @@ export default function Header() {
             </NavigationMenu>
 
             <Link href="/booking">
-              <Button className="bg-spa-sage hover:bg-spa-sage/90">
+              <Button className="bg-brand-gold hover:bg-brand-gold/90 text-brand-black">
                 Book Now
               </Button>
             </Link>
@@ -164,35 +164,35 @@ export default function Header() {
             <div className="px-2 pt-2 pb-3 space-y-1">
               <Link
                 href="/"
-                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-spa-teal hover:bg-gray-50"
+                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-brand-blue hover:bg-gray-50"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </Link>
               <Link
                 href="/services"
-                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-spa-teal hover:bg-gray-50"
+                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-brand-blue hover:bg-gray-50"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Services
               </Link>
               <Link
                 href="/about"
-                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-spa-teal hover:bg-gray-50"
+                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-brand-blue hover:bg-gray-50"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
               </Link>
               <Link
                 href="/contact"
-                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-spa-teal hover:bg-gray-50"
+                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-brand-blue hover:bg-gray-50"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact
               </Link>
               <div className="px-3 py-2">
                 <Link href="/booking" className="block">
-                  <Button className="w-full bg-spa-sage hover:bg-spa-sage/90">
+                  <Button className="w-full bg-brand-gold hover:bg-brand-gold/90 text-brand-black">
                     Book Now
                   </Button>
                 </Link>

@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="bg-spa-sage text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-lg">
+              <div className="bg-brand-blue text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-lg">
                 R
               </div>
               <div>
@@ -24,10 +24,10 @@ export default function Footer() {
               in a peaceful, professional environment.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-spa-mint transition-colors">
+              <a href="#" className="text-gray-400 hover:text-brand-gold transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-spa-mint transition-colors">
+              <a href="#" className="text-gray-400 hover:text-brand-gold transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
             </div>
@@ -35,30 +35,30 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-semibold text-lg mb-4 text-spa-mint">Quick Links</h3>
+            <h3 className="font-semibold text-lg mb-4 text-brand-gold">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="text-gray-300 hover:text-spa-mint transition-colors text-sm">
+                <Link href="/" className="text-gray-300 hover:text-brand-gold transition-colors text-sm">
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/services" className="text-gray-300 hover:text-spa-mint transition-colors text-sm">
+                <Link href="/services" className="text-gray-300 hover:text-brand-gold transition-colors text-sm">
                   Services
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-gray-300 hover:text-spa-mint transition-colors text-sm">
+                <Link href="/about" className="text-gray-300 hover:text-brand-gold transition-colors text-sm">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-gray-300 hover:text-spa-mint transition-colors text-sm">
+                <Link href="/contact" className="text-gray-300 hover:text-brand-gold transition-colors text-sm">
                   Contact
                 </Link>
               </li>
               <li>
-                <Link href="/booking" className="text-gray-300 hover:text-spa-mint transition-colors text-sm">
+                <Link href="/booking" className="text-gray-300 hover:text-brand-gold transition-colors text-sm">
                   Book Online
                 </Link>
               </li>
@@ -67,7 +67,7 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h3 className="font-semibold text-lg mb-4 text-spa-mint">Our Services</h3>
+            <h3 className="font-semibold text-lg mb-4 text-brand-gold">Our Services</h3>
             <ul className="space-y-2">
               <li className="text-gray-300 text-sm">Traditional Thai Massage</li>
               <li className="text-gray-300 text-sm">Thai Oil Massage</li>
@@ -80,10 +80,10 @@ export default function Footer() {
 
           {/* Contact Information */}
           <div>
-            <h3 className="font-semibold text-lg mb-4 text-spa-mint">Contact Info</h3>
+            <h3 className="font-semibold text-lg mb-4 text-brand-gold">Contact Info</h3>
             <div className="space-y-3">
               <div className="flex items-start space-x-3">
-                <MapPin className="h-4 w-4 mt-1 text-spa-mint flex-shrink-0" />
+                <MapPin className="h-4 w-4 mt-1 text-brand-gold flex-shrink-0" />
                 <div className="text-gray-300 text-sm">
                   <p>Unit 4 Shannon Court</p>
                   <p>Sandy, Bedfordshire</p>
@@ -92,7 +92,7 @@ export default function Footer() {
               </div>
               
               <div className="flex items-center space-x-3">
-                <Phone className="h-4 w-4 text-spa-mint" />
+                <Phone className="h-4 w-4 text-brand-gold" />
                 <div className="text-gray-300 text-sm">
                   <p>01767 302856</p>
                   <p>07464 882684</p>
@@ -100,21 +100,21 @@ export default function Footer() {
               </div>
 
               <div className="flex items-center space-x-3">
-                <Mail className="h-4 w-4 text-spa-mint" />
+                <Mail className="h-4 w-4 text-brand-gold" />
                 <a 
                   href="mailto:richalukthaimassage@gmail.com" 
-                  className="text-gray-300 hover:text-spa-mint transition-colors text-sm break-all"
+                  className="text-gray-300 hover:text-brand-gold transition-colors text-sm break-all"
                 >
                   richalukthaimassage@gmail.com
                 </a>
               </div>
 
               <div className="flex items-start space-x-3">
-                <Clock className="h-4 w-4 mt-1 text-spa-mint" />
+                <Clock className="h-4 w-4 mt-1 text-brand-gold" />
                 <div className="text-gray-300 text-sm">
                   <p>Monday - Saturday</p>
                   <p>11:00 AM - 7:00 PM</p>
-                  <p className="text-spa-mint">Sunday: Closed</p>
+                  <p className="text-brand-gold">Sunday: Closed</p>
                 </div>
               </div>
             </div>
@@ -130,13 +130,13 @@ export default function Footer() {
               © 2024 Richa Luk Thai Massage Therapy. All rights reserved.
             </div>
             <div className="flex space-x-6 text-gray-400 text-sm">
-              <a href="#" className="hover:text-spa-mint transition-colors">
+              <a href="#" className="hover:text-brand-gold transition-colors">
                 Privacy Policy
               </a>
-              <a href="#" className="hover:text-spa-mint transition-colors">
+              <a href="#" className="hover:text-brand-gold transition-colors">
                 Terms of Service
               </a>
-              <a href="#" className="hover:text-spa-mint transition-colors">
+              <a href="#" className="hover:text-brand-gold transition-colors">
                 Cancellation Policy
               </a>
             </div>
