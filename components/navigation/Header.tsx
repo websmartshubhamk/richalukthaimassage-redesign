@@ -45,14 +45,12 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="bg-brand-blue text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-lg">
-              R
-            </div>
-            <div>
-              <h1 className="font-bold text-xl text-gray-800">Richa Luk</h1>
-              <p className="text-sm text-gray-600 -mt-1">Thai Massage</p>
-            </div>
+          <Link href="/" className="flex items-center">
+            <img 
+              src="/images/logo.avif" 
+              alt="Richa Luk Thai Massage" 
+              className="h-14 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}

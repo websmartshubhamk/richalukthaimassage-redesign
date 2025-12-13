@@ -70,8 +70,12 @@ export default function WhatsAppButton({
             <CardHeader className="bg-green-500 text-white rounded-t-lg">
               <div className="flex justify-between items-center">
                 <div className="flex items-center space-x-3">
-                  <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
-                    <span className="text-green-500 text-lg font-bold">R</span>
+                  <div className="w-10 h-10 bg-white rounded-full overflow-hidden">
+                    <img 
+                      src="/images/logo.avif" 
+                      alt="Richa Luk" 
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   <div>
                     <CardTitle className="text-lg">Richa Luk Thai Massage</CardTitle>

@@ -87,12 +87,14 @@ export default function HeroSection() {
           <div className="relative">
             {/* Main Image Placeholder */}
             <div className="relative">
-              <div className="bg-gradient-to-br from-brand-lightGrey to-brand-blue/10 rounded-3xl h-[600px] flex items-center justify-center shadow-2xl">
-                <div className="text-center text-gray-500">
-                  <div className="w-24 h-24 mx-auto mb-4 bg-brand-blue/20 rounded-full flex items-center justify-center">
-                    <span className="text-3xl">🧘‍♀️</span>
-                  </div>
-                  <p className="text-lg">Professional Treatment Image</p>
+              <div className="bg-gradient-to-br from-brand-lightGrey to-brand-blue/10 rounded-3xl h-[600px] flex items-center justify-center shadow-2xl p-8">
+                <div className="text-center">
+                  <img 
+                    src="/images/logo.avif" 
+                    alt="Richa Luk Thai Massage" 
+                    className="max-h-96 w-auto mx-auto drop-shadow-2xl"
+                  />
+                  <p className="text-lg text-gray-600 mt-8">Professional Thai Massage Therapy</p>
                 </div>
               </div>
               

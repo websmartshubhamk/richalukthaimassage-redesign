@@ -9,14 +9,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="bg-brand-blue text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-lg">
-                R
-              </div>
-              <div>
-                <h2 className="font-bold text-xl">Richa Luk</h2>
-                <p className="text-sm text-gray-400">Thai Massage Therapy</p>
-              </div>
+            <div className="mb-4">
+              <img 
+                src="/images/logo.avif" 
+                alt="Richa Luk Thai Massage" 
+                className="h-16 w-auto brightness-0 invert"
+              />
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
               Authentic Thai massage therapy combining traditional healing techniques 
